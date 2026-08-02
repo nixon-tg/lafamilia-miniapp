@@ -1,0 +1,10 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0f0f10;color:#fff;font-family:Arial,sans-serif;display:flex;justify-content:center;padding:24px;min-height:100vh}
+.bg-logo{position:fixed;top:10px;left:50%;transform:translateX(-50%);width:320px;height:180px;background:url('assets/logo.png') center/contain no-repeat;opacity:.12}
+.card{width:100%;max-width:430px;margin-top:120px;background:#181818;border:1px solid #2d2d2d;border-radius:24px;padding:24px}
+h1{text-align:center;margin-bottom:20px}
+p,h3{margin:12px 0}
+hr{border:none;border-top:1px solid #303030;margin:18px 0}
+.buttons{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+button{height:76px;background:#202020;border:1px solid #333;border-radius:18px;color:#fff;font-size:20px;font-weight:bold;cursor:pointer}
+button:active{transform:scale(.98)}
