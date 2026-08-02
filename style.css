@@ -1,0 +1,11 @@
+body{margin:0;background:#0d0d0d;color:#fff;font-family:Arial}
+.wrapper{max-width:420px;margin:auto;padding:18px}
+.logo{width:220px;display:block;margin:20px auto}
+h1,h2,p{text-align:center}
+#search{width:100%;padding:14px;border-radius:14px;border:none;background:#1d1d1d;color:#fff}
+.cats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0}
+button{background:#1b1b1b;color:#fff;border:none;border-radius:16px;padding:16px;font-size:17px}
+.card{background:#171717;border-radius:16px;padding:14px;margin:12px 0}
+.price{color:#67d36b}
+.add{margin-top:10px;width:100%}
+#cart{position:sticky;bottom:10px;width:100%;background:#2b8cff}
